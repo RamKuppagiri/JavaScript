@@ -12,8 +12,6 @@
  * 
  * git push
  * 
- * checking the account validation
- * 
  * 
  * 
  * 
