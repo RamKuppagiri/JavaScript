@@ -9,19 +9,11 @@
  */
 
 // normal import
-const commonFunctions = require('../commonFunctions');
+// const commonFunctions = require('../commonFunctions');
 
 //named import
 
-const { addition, substraction} = require('../commonFunctions');
-
-// normal import
-const multiplicataion & division = require('../multiplication & division');
-
-//named import
-
-const { multiplicataion , division } = require('../multiplication & division');
-
+const { addition, substraction, multiplication , division} = require('../commonFunctions');
 
 // arrow functions
 
@@ -36,15 +28,11 @@ const b = 15;// define b=15
 
 
   //subtraction  function definitaion 
-  substraction (a,b);
+  substraction(a,b);
 
-  multiplicataion (a,b);
-  division (a,b);
+  multiplication(a,b);
+  division(a,b);
 
 
-  // how to use normal import ???
-  //commonFunctions.addition(a,b);commonFunctions.substraction(a,b);
- // multiplicataion & division.multiplicataion(a*b);
- // multiplicataion & division.division(a%b)
 
 
