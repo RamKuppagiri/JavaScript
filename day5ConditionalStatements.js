@@ -47,4 +47,3 @@ case age <=200: console.log('Senior citizen');
 default: console.log('invalid value');
 }
 
-

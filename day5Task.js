@@ -5,43 +5,64 @@
  * 1 -> jan
  * 2 -> feb **/
 
-switch(num) = 1
-  {
-    case 0;
-      month="January";
-      break;
+const month = 12;
+switch(month) {
     case 1:
-      month="February";
+      console.log("January")
       break;
     case 2:
-      month="March";
+      console.log("Febravury")
       break;
     case 3:
-      month="April";
+      console.log("March")
       break;
     case 4:
-      month="May";
+      console.log("April")
       break;
     case 5:
-      month="June";
+      console.log("May")
       break;
     case 6:
-      month="July";
+      console.log("June")
       break;
     case 7:
-      month="August";
+      console.log("July")
       break;
     case 8:
-      month="September";
+      console.log("August")
       break;
     case 9:
-      month="October";
+      console.log("September")
       break;
     case 10:
-      month="November";
+      console.log("October")
       break;
     case 11:
-      month="December";
+      console.log("November")
       break;
-      default: console.log('invalid value');
+    case 12:
+      console.log ("December")
+      break;
+    default: console.log('invalid value');
   }
+
+   /** 
+   * for loop
+   * take number range from 1 to 100 
+   * if number divided by 3 => console.log('multiple of 3', number);
+   * number % 3 === 0
+   * **/
+
+
+   for(let i= 1;i<=100;i++){
+    if(i%3===0)
+     console.log('multiple of 3', i)
+   }
+
+
+
+
+
+
+
+  

@@ -32,8 +32,4 @@ while(l<0){
 }
 
 
-   //** 
-   * for loop
-   * take number range from 1 to 100 
-   * if number divided by 3 => console.log('multiple of 3', number);
-   * number % 3 === 0**/
+   
