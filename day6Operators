@@ -1,0 +1,28 @@
+
+const a = 10;
+const b = 12;
+const c = '10';
+
+console.log('addition of a and b',a+b);
+
+
+console.log('substraction of a and b',a-b);
+
+console.log('multiplication of a and b',a*b);
+
+console.log('division of a and b', a/b);
+
+console.log('division of a and b with reminder',a%b);
+
+console.log('uniray plus',a++);
+console.log('uniray minus',a--);
+
+console.log('uniray plus plus', ++a);
+console.log('uniray minus m inus',--a);
+
+// comaprision
+
+console.log('compare values of a and c',a===c);
+
+console.log('euqualent values of a and c', a==c);
+
