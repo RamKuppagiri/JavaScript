@@ -26,3 +26,12 @@ console.log('compare values of a and c',a===c);
 
 console.log('euqualent values of a and c', a==c);
 
+
+
+const month = ["January","Febrauary","March","April","May","June","July","August","September","October","November","December"];
+
+const ascorder =newDate();
+let name = month[ascorder.getMonth()]
+
+console.log ("month")
+
