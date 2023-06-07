@@ -44,3 +44,59 @@ console.log('removedElementFromLast', removedElementFromLast);
 const fruits3 = ["RS", "AS", "QY", "QX"];
 let fruit = fruits.pop();
 // pop removes the last element of an array
+
+
+//slice
+const vegetables = ['tomato', 'eggplant', 'bellpepper', 'okra', 'chilli'];
+
+/**
+ * slice never changes the original array
+ * instead returns a copy
+ */
+
+const startingTwo = vegetables.slice(-2);
+
+console.log('startingTwo', startingTwo);
+
+
+// direct assignment
+vegetables[2] = 'redPepper';
+
+// indexOf
+console.log(vegetables.indexOf('okra'));
+
+// push
+vegetables.push('okra', 'okra', 
+'yellowPepper');
+
+console.log('vegatables', vegetables);
+
+
+for(let i =0 ; i<vegetables.length;i++){
+    if(vegetables[i] === 'okra'){
+        vegetables[i] = 'bottleguard';
+    }
+}
+
+console.log('veggies', vegetables);
+
+// slice insertion
+
+const colors = ['yellow', 'red', 'white', 'pink', 'brown'];
+
+/**
+ * task -> to insert black in between red and white
+ * 
+ * steps:
+ * 1. slice until red
+ * 2. slice from white to the end of array
+ * 3. insert black in between two slices
+ */
+
+const firstHalf = colors.slice(0,2);
+const secondHalf = colors.slice(2);
+// spread operator
+const newColors = [...firstHalf, 'black', ...secondHalf];
+console.log('newColors', newColors);
+
+
