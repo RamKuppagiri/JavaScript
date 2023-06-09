@@ -9,12 +9,6 @@
  * 6) print from february to october using slice.//
  * //** */
 
-
-
-
-
-
-
 const month = ["January","Febrauary","March","April","May","June","July","August","September","October","November","December"];
 
 let size = month.length; //length of array //
@@ -23,22 +17,16 @@ console.log(size)
 let sizes = month.pop()+month.pop()
 console.log(sizes); //pop twice//
 
-month.push ("November")
+month.push("November")
 
-console.log ("month",month) //push november//
+console.log("month",month) //push november//
 
-month.shift ("January")
-console.log ("month",month)  //shift --remove 1st element //
+month.shift("January")
+console.log("month",month)  //shift --remove 1st element //
 
 month.unshift ("January")
 console.log ("month",month) //unshift //
 
-const modifymonth = month .slice (1,10)
+const modifymonth = month.slice(1,10)
 
 console.log("modifymonth",modifymonth) //slice 
-
-
-
-
-
-

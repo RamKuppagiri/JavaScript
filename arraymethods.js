@@ -100,3 +100,45 @@ const newColors = [...firstHalf, 'black', ...secondHalf];
 console.log('newColors', newColors);
 
 
+const testArr = ['1', '2', '3', '4', '5']
+const newAddElements = ['a', 'b', 'c', 'd'];
+const deletedElements = testArr.splice(1, 2, ...newAddElements);
+console.log(testArr, '....', deletedElements);
+
+// array copy
+/**
+ * wrong way of copying array
+  const arr1 = [1,2,3];
+
+let arr2;
+
+arr2 = arr1;
+console.log('&&&&&&&&&&&&&&&&&&&&');
+console.log('arr1', arr1, 'arr2', arr2);
+
+arr1.pop();
+
+console.log('arr1', arr1, 'arr2', arr2);
+ */
+
+// copy array
+
+const firstArray = [10,20,30];
+const secondArr = [...firstArray];
+
+firstArray.push(40);
+
+console.log(firstArray, secondArr);
+
+
+// forEach
+// map
+// filter
+// reduce
+// some
+// every
+
+
+
+
+
