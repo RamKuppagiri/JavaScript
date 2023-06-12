@@ -131,12 +131,43 @@ firstArray.push(40);
 console.log(firstArray, secondArr);
 
 
-// forEach
-// map
-// filter
-// reduce
-// some
-// every
+// forEach-- calls a functiin for each element in an array . it doesn't executed for empty elements. foeach method executes a provided function once for each array elemengt //
+
+const house = ["singlefamily","townhouse","condos","airbnb"];
+house.forEach(house =>console.log (house));  
+
+const adds = [];
+adds.forEach(adds=>console.log(adds)); 
+// map-- map method creates a new array populated with results of calling a provided function on every element in the calling array //
+
+const array = [1,2,3,4,5,6,7,8,9,10]
+const map1 = array.map(x=>x-1)
+console.log(map1)
+// filter-- filter method creates a shallow copy of portion of a given array ,filterred down to just elements from given array that pass test implemented by provided function.//
+
+const weeks =["sunday","monday","tuesday","wednesday","thursday","friday","saturday","even","odd"];
+const result =weeks.filter(weeks=>weeks.length<8);
+console.log(result)
+
+// reduce-- reduce () method executes a reducer function on each element of array and returns a single output value //
+
+const indwords =["javascript","is","very","easy","to","learn"];
+let togetherwords = indwords.reduce(function(total,amount) {
+
+    return total +amount 
+}
+
+);
+console.log(togetherwords);
+
+
+// some--some() method tests whether at least one element in array passes test implemented by provide function//
+
+
+
+//every
+
+
 
 
 
