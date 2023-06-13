@@ -163,10 +163,26 @@ console.log(togetherwords);
 
 // some--some() method tests whether at least one element in array passes test implemented by provide function//
 
+const arraysrt =[11,12,13,14,15,16,17,18,19,20,21,22]
+
+// Checks whether an element is even
+const even = (element) => element % 2 === 0;
+
+console.log(arraysrt.some(even));
+// Expected output: true
+
+
+
 
 
 //every
 
+const ages = [32, 33, 16, 40];
+// Checks whether an element is even
+const evens = (element) => element % 2 === 0;
+
+console.log(array.some(evens));
+// Expected output: true
 
 
 
