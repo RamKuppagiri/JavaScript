@@ -133,7 +133,7 @@ console.log(firstArray, secondArr);
 
 // forEach-- calls a functiin for each element in an array . it doesn't executed for empty elements. foeach method executes a provided function once for each array elemengt //
 
-const house = ["singlefamily","townhouse","condos","airbnb"];
+const house = ["singlefamily","townhouse","condos","airbnb","1","-10","a1$"];
 house.forEach(house =>console.log (house));  
 
 const adds = [];
@@ -146,12 +146,12 @@ console.log(map1)
 // filter-- filter method creates a shallow copy of portion of a given array ,filterred down to just elements from given array that pass test implemented by provided function.//
 
 const weeks =["sunday","monday","tuesday","wednesday","thursday","friday","saturday","even","odd"];
-const result =weeks.filter(weeks=>weeks.length<8);
+const result =weeks.filter(weeks=>weeks.length>3);
 console.log(result)
 
 // reduce-- reduce () method executes a reducer function on each element of array and returns a single output value //
 
-const indwords =["javascript","is","very","easy","to","learn"];
+const indwords =["javascript","is","very","easy","to","learn","yes","absolutely"];
 let togetherwords = indwords.reduce(function(total,amount) {
 
     return total +amount 
@@ -166,7 +166,7 @@ console.log(togetherwords);
 const arraysrt =[11,12,13,14,15,16,17,18,19,20,21,22]
 
 // Checks whether an element is even
-const even = (element) => element % 2 === 0;
+const even = (element) => element % 25 === 0;
 
 console.log(arraysrt.some(even));
 // Expected output: true
@@ -175,14 +175,23 @@ console.log(arraysrt.some(even));
 
 
 
-//every
+//every-- every () method executes a function for each array element.this method returns true if function returns true for all elemnts. it returns false if function returns false if function returns false for one element.it does not execute function for empty elements. it does not changes original array.
 
 const ages = [32, 33, 16, 40];
 // Checks whether an element is even
-const evens = (element) => element % 2 === 0;
+const evens = (element) => element % 0 === 0;
 
 console.log(array.some(evens));
 // Expected output: true
+
+
+const favfood = ["Veg","vegan","meat","juice"]
+console.log(...favfood) //spread operator//
+
+
+const cars = ["audi","bmw","benz"];
+const findcar = cars.includes("audi");
+console.log(findcar); // includes--method is used to check if a specific string exists in a collection and returns true or false . it is case sensitive //
 
 
 
