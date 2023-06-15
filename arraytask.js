@@ -13,3 +13,4 @@ for(let i = 0; i<=arrayLength-1; i = i+1){
 consecutiveSum = consecutiveSum+array[i] //main logic//
 console.log(consecutiveSum)
 }
+

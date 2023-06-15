@@ -151,7 +151,7 @@ console.log(result)
 
 // reduce-- reduce () method executes a reducer function on each element of array and returns a single output value //
 
-const indwords =["javascript","is","very","easy","to","learn","yes","absolutely"];
+const indwords =["javascript","is","very","easy","to","learn","yes","absolutely","123","4567890123"];
 let togetherwords = indwords.reduce(function(total,amount) {
 
     return total +amount 
@@ -160,6 +160,35 @@ let togetherwords = indwords.reduce(function(total,amount) {
 );
 console.log(togetherwords);
 
+
+const task1 = [1,2,3,4,5,6,7,8,9,10];
+   // const summ = task1.reduce((total,item) =>total+item); 
+    console.log(summ = task1.reduce((total,item) =>total+item)); //sum of 1-10 elements in single line 
+
+
+    const task2 = [1,2,3,4,5,6,7,8,9,10];
+   // const summ = task1.reduce((total,item) =>total+item); 
+    console.log(multiplication = task2.reduce((total,item) =>total*item)); //multiplication  of 1-10 elements in single line 
+
+ const lengthsingleline =['mango', 'apple', 'monks', 'homes', 'house']
+
+console.log (len =lengthsingleline.length)
+
+
+const greater = [10, 12, 15, 17, 19]
+  //
+  //if one of the array elemenbnt is greater than 20, return true else false(single lane)//
+
+
+
+console.log(greater.some((element) => element>20));
+
+
+    
+
+const sumarray = [1,5,7,9,3,2,18,17];
+const sum = sumarray.reduce((total,item) =>total+item); 
+console.log(sum);
 
 // some--some() method tests whether at least one element in array passes test implemented by provide function//
 
@@ -195,6 +224,7 @@ console.log(findcar); // includes--method is used to check if a specific string 
 
 
 
+// array map () -- //
 
 
 
