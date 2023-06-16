@@ -163,16 +163,15 @@ console.log(togetherwords);
 
 const task1 = [1,2,3,4,5,6,7,8,9,10];
    // const summ = task1.reduce((total,item) =>total+item); 
-    console.log(summ = task1.reduce((total,item) =>total+item)); //sum of 1-10 elements in single line 
+    console.log(task1.reduce((total,item) =>total+item)); //sum of 1-10 elements in single line 
 
 
     const task2 = [1,2,3,4,5,6,7,8,9,10];
    // const summ = task1.reduce((total,item) =>total+item); 
-    console.log(multiplication = task2.reduce((total,item) =>total*item)); //multiplication  of 1-10 elements in single line 
+    console.log(task2.reduce((total,item) =>total*item)); //multiplication  of 1-10 elements in single line 
 
- const lengthsingleline =['mango', 'apple', 'monks', 'homes', 'house']
-
-console.log (len =lengthsingleline.length)
+ let lengthsingleline =['mango', 'apple', 'monks', 'homes', 'house']
+  console.log('every method result', lengthsingleline.every((e)=>e.length === 5));
 
 
 const greater = [10, 12, 15, 17, 19]
@@ -223,8 +222,31 @@ const findcar = cars.includes("audi");
 console.log(findcar); // includes--method is used to check if a specific string exists in a collection and returns true or false . it is case sensitive //
 
 
+//06/15 tasks//
+//Task1//
+const numbers = [12,16,18,20,21]
+console.log([12,16,18,20,21].filter(function(a){return a%3===0;}));//return all elements can divided by 3 //
 
-// array map () -- //
+//Task2//
+
+const names = ['Bhavani','Ram','Prabha','Thanee']
+
+//console.log('divided by two', names.every((e)=>e.length%3));//
+
+let sizee = names.length%2;
+console.log(size)
 
 
+//Task3//
 
+const stringArr = ['bhavani','lives','in','usa']
+console.log( stringArr.join(' '));
+
+//Task4//
+const mulArr = [1,3,5,7,9]
+console.log(mulArr.map(x=> x * 5))
+
+//Task5//
+const newArr = [11,23,45,66];
+
+console.log(newArr.some((element) => element%11)); 
