@@ -222,14 +222,16 @@ const findcar = cars.includes("audi");
 console.log(findcar); // includes--method is used to check if a specific string exists in a collection and returns true or false . it is case sensitive //
 
 
-//06/15 tasks//
-//Task1//
+// 06/15 tasks
+// Task1
 const numbers = [12,16,18,20,21]
-console.log([12,16,18,20,21].filter(function(a){return a%3===0;}));//return all elements can divided by 3 //
+console.log('filter',[12,16,18,20,21].filter(function(a){return a%3===0;}));//return all elements can divided by 3 //
 
 //Task2//
 
 const names = ['Bhavani','Ram','Prabha','Thanee']
+
+//console.log(names.length===length%2)
 
 //console.log('divided by two', names.every((e)=>e.length%3));//
 
@@ -237,14 +239,16 @@ let sizee = names.length%2;
 console.log(size)
 
 
+
+
 //Task3//
 
 const stringArr = ['bhavani','lives','in','usa']
-console.log( stringArr.join(' '));
+console.log('join',stringArr.join(' '));
 
 //Task4//
-const mulArr = [1,3,5,7,9]
-console.log(mulArr.map(x=> x * 5))
+const mulArr = [1,3,5,7,9];
+console.log('map', (mulArr.map(x=> x * 5)))
 
 //Task5//
 const newArr = [11,23,45,66];
