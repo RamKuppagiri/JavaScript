@@ -17,17 +17,48 @@ let result1 = text1.includes("world", 12)
 console.log(result1)
 
 
-const str ="java script is great" ;
-console.log(str.includes("extend"))
-console.log(str.length)
-console.log(str.charAt)
-console.log(str.charCodeAt)
-console.log(str.codePointAt)
-console.log(str.concat)
-console.log(str.endsWith)
-console.log(str.includes)
-console.log(str.indexOf)
-console.log(str.lastIndexOf)
-console.log(str.localeCompare)
-console.log(str.match)
-console.log(str.matchAll)
+let str ="java script is great" ;
+console.log('includes',str.includes("extend"))
+console.log('length',str.length)
+console.log('charAt',str.charAt(5))
+console.log('charCodeAt',str.charCodeAt(0))
+console.log('concat',str = str.concat('. Now iam learning it, it is interesting.'))
+console.log('endsWith',str.endsWith('it'));
+console.log('includes 2',str.includes('interesting'))
+console.log('indexOf',str.indexOf('great'))
+console.log('lastIndexOf',str.lastIndexOf('is'))
+
+// ===
+console.log('===', '111' === 111);
+console.log('==', '111' == 111);
+console.log('typeof', typeof('111'));
+
+console.log(`template literal ${'111' == 111}`)
+
+console.log('includes',str.includes("extend"))
+
+console.log(`includes ${str.includes("extend")}`)
+
+
+/** 
+ * 
+ * 1)re write all of the above statemnets using template literals
+ * 
+ * 2) const stringArr = ['Bhavani-Developer', 'Ram-Developer', 'Bhanu-Devops', 'Madhavi-QA'];
+ * 
+ * iterate through the array and printout the people who are developers
+ * 
+ * print the count of the developers
+ * 
+ * 
+ 
+ * 
+*/
+
+
+
+
+
+
+  
+
