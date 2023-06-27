@@ -39,7 +39,34 @@ console.log('includes',str.includes("extend"))
 
 console.log(`includes ${str.includes("extend")}`)
 
+//template literals//
 
+
+console.log(`includes ${str.includes("extend")}`)
+
+
+
+
+
+console.log('$length',str.length)
+console.log('$charAt',str.charAt(5))
+console.log('$charCodeAt',str.charCodeAt(0))
+console.log('$concat',str = str.concat('. Now iam learning it, it is interesting.'))
+console.log('$endsWith',str.endsWith('it'));
+console.log('$includes 2',str.includes('interesting'))
+console.log('$indexOf',str.indexOf('great'))
+console.log('$lastIndexOf',str.lastIndexOf('is'))
+
+// ===
+console.log('$===', '111' === 111);
+console.log('$==', '111' == 111);
+console.log('$typeof', typeof('111'));
+
+console.log(`$template literal ${'111' == 111}`)
+
+console.log('$includes',str.includes("extend"))
+
+console.log(`$includes ${str.includes("extend")}`)
 /** 
  * 
  * 1)re write all of the above statemnets using template literals
@@ -54,6 +81,29 @@ console.log(`includes ${str.includes("extend")}`)
  
  * 
 */
+
+
+const stringArr = ['Bhavani-Developer', 'Ram-Developer', 'Bhanu-Devops', 'Madhavi-QA'];
+
+function iterate (item) {
+
+    console.log (item)
+
+    
+}
+
+
+stringArr.forEach.call(stringArr,iterate); 
+
+console.log(stringArr)
+
+const developer = stringArr.includes('Bhavani-Developer', 'Ram-Developer')
+
+console.log(developer)
+
+
+
+
 
 
 
