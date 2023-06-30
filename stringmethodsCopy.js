@@ -71,11 +71,13 @@ console.log(`$includes ${str.includes("extend")}`)
  * 
  * 1)re write all of the above statemnets using template literals
  * 
- * 2) const stringArr = ['Bhavani-Developer', 'Ram-Developer', 'Bhanu-Devops', 'Madhavi-QA'];
+ * 2) c onst stringArr = ['Bhavani-Developer', 'Ram-Developer', 'Bhanu-Devops', 'Madhavi-QA'];
  * 
  * iterate through the array and printout the people who are developers
  * 
  * print the count of the developers
+ * 
+ * 
  * 
  * 
  
@@ -83,32 +85,27 @@ console.log(`$includes ${str.includes("extend")}`)
 */
 
 
+
 const stringArr = ['Bhavani-Developer', 'Ram-Developer', 'Bhanu-Devops', 'Madhavi-QA'];
+let count = 0;
+    for(let i=0;i<stringArr.length;i++){
+        // if condition
+        if(stringArr[i].includes('Developer')){
+            const names = stringArr[i].split('-')
+            //console.log('names')
 
-function iterate (item) {
+            //const stringArr1 =stringArr.split ('')//
+        // break it with - split()//
+        // store the result in names
+        console.log(names[0])
 
-    console.log (item)
-
-    
-}
-
-
-stringArr.forEach.call(stringArr,iterate); 
-
-console.log(stringArr)
-
-const developer = stringArr.includes('Bhavani-Developer', 'Ram-Developer')
-
-console.log(developer)
-
-
+         count = count + 1;
+        }
+    }
+console.log('number of developers', count);
 
 
 
 
 
-
-
-
-  
 
